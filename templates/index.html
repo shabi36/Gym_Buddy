@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Elite Fitness Gym - Transform Your Life</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/style.css') }}">
+    <link rel="stylesheet" href="{{ url_for('static', filename='css/responsive.css') }}">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <div class="logo">Elite Fitness</div>
+            <div class="nav-toggle" id="navToggle">
+                <i class="fas fa-bars"></i>
+            </div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#classes">Classes</a></li>
+                <li><a href="#membership">Membership</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h1>Transform Your Body, Transform Your Life</h1>
+            <p>Join Elite Fitness today and start your fitness journey with expert guidance</p>
+            <a href="#membership" class="cta-button">Start Now</a>
+        </div>
+    </section>
+
+    <section id="features" class="features">
+        <h2>Why Choose Us</h2>
+        <div class="features-grid">
+            <div class="feature-card">
+                <i class="fas fa-dumbbell"></i>
+                <h3>Modern Equipment</h3>
+                <p>State-of-the-art fitness equipment for optimal results</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-user-friends"></i>
+                <h3>Expert Trainers</h3>
+                <p>Certified professionals to guide your fitness journey</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-clock"></i>
+                <h3>24/7 Access</h3>
+                <p>Train any time that suits your schedule</p>
+            </div>
+            <div class="feature-card">
+                <i class="fas fa-heart"></i>
+                <h3>Supportive Community</h3>
+                <p>Join a motivating community of fitness enthusiasts</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="classes" class="classes">
+        <h2>Our Classes</h2>
+        <div class="classes-grid">
+            <div class="class-card">
+                <h3>Strength Training</h3>
+                <p>Build muscle and increase strength</p>
+            </div>
+            <div class="class-card">
+                <h3>HIIT</h3>
+                <p>High-intensity interval training</p>
+            </div>
+            <div class="class-card">
+                <h3>Yoga</h3>
+                <p>Improve flexibility and mindfulness</p>
+            </div>
+            <div class="class-card">
+                <h3>CrossFit</h3>
+                <p>Dynamic functional fitness</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="membership" class="membership">
+        <h2>Membership Plans</h2>
+        <div class="plans-grid">
+            <div class="plan-card">
+                <h3>Basic</h3>
+                <p class="price">₹1,499/month</p>
+                <ul>
+                    <li>24/7 Gym Access</li>
+                    <li>Basic Equipment</li>
+                    <li>Locker Room Access</li>
+                </ul>
+                <a href="#contact" class="plan-button">Choose Plan</a>
+            </div>
+            <div class="plan-card featured">
+                <h3>Premium</h3>
+                <p class="price">₹2,499/month</p>
+                <ul>
+                    <li>All Basic Features</li>
+                    <li>Group Classes</li>
+                    <li>Personal Trainer</li>
+                    <li>Nutrition Guide</li>
+                </ul>
+                <a href="#contact" class="plan-button">Choose Plan</a>
+            </div>
+            <div class="plan-card">
+                <h3>Elite</h3>
+                <p class="price">₹3,999/month</p>
+                <ul>
+                    <li>All Premium Features</li>
+                    <li>Private Classes</li>
+                    <li>Massage Services</li>
+                    <li>Premium Amenities</li>
+                </ul>
+                <a href="#contact" class="plan-button">Choose Plan</a>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <div class="contact-container">
+            <div class="contact-info">
+                <div class="info-item">
+                    <i class="fas fa-map-marker-alt"></i>
+                    <p>Elite Fitness Gym, Panaji , Goa 403508</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-phone"></i>
+                    <p>+91 7218314954</p>
+                </div>
+                <div class="info-item">
+                    <i class="fas fa-envelope"></i>
+                    <p>shabigadekar2003@gmail.com</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <div class="footer-section">
+                <h4>Elite Fitness</h4>
+                <p>Transform your life with our premium fitness facilities and expert guidance.</p>
+            </div>
+            <div class="footer-section">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#classes">Classes</a></li>
+                    <li><a href="#membership">Membership</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                </ul>
+            </div>
+            <div class="footer-section">
+                <h4>Follow Us</h4>
+                <div class="social-links">
+                    <a href="#"><i class="fab fa-facebook"></i></a>
+                    <a href="#"><i class="fab fa-instagram"></i></a>
+                    <a href="#"><i class="fab fa-twitter"></i></a>
+                    <a href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </div>
+        </div>
+        <div class="footer-bottom">
+            <p>&copy; 2023 Elite Fitness. All rights reserved.</p>
+        </div>
+    </footer>
+    <script>
+        // Plan cards interaction
+        const planCards = document.querySelectorAll('.plan-card');
+        planCards.forEach(card => {
+            card.addEventListener('click', () => {
+                planCards.forEach(c => c.classList.remove('featured'));
+                card.classList.add('featured');
+            });
+        });
+    </script>
+   <script>
+        window.project_id = "d15e9159bd6a4688bf9356";
+        window.frame_type = "widget";
+      </script>
+      <script
+        src="https://ai.automationanywhere.com/loader.min.js"
+        project_id="d15e9159bd6a4688bf9356"
+        frame_type="widget"
+        defer
+      ></script>
+</body>
+</html>
